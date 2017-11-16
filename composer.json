@@ -1,5 +1,5 @@
 {
-    "name": "sjaakp/yii2-symbol-picker",
+    "name": "geoffry304/yii2-symbol-picker",
     "description": "Widget to select Font Awesome symbol for Yii2.",
     "keywords": ["yii", "yii2", "extension", "widget", "font-awesome"],
     "type": "yii2-extension",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sjaakp\\symbolpicker\\": ""
+            "geoffry304\\symbolpicker\\": ""
         }
     }
 }

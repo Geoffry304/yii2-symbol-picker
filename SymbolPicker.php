@@ -14,7 +14,7 @@
  * See: http://fontawesome.io/get-started/ .
  */
 
-namespace sjaakp\symbolpicker;
+namespace geoffry304\symbolpicker;
 
 use yii\helpers\Html;
 use yii\widgets\InputWidget;

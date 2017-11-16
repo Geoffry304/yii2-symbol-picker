@@ -19,34 +19,34 @@ A demonstration of SymbolPicker widget is [here](http://www.sjaakpriester.nl/sof
         	'css/site.css'
 			...	// other css files
     	];
-		...	
+		...
 	}
 	?>
 
-There are [other methods](http://fontawesome.io/get-started/) to make Font Awesome available to your site. 
+There are [other methods](http://fontawesome.io/get-started/) to make Font Awesome available to your site.
 
 ## Installation ##
 
 The preferred way to install **SymbolPicker** is through [Composer](https://getcomposer.org/). Either add the following to the require section of your `composer.json` file:
 
-`"sjaakp/yii2-symbol-picker": "*"` 
+`"geoffry304/yii2-symbol-picker": "*"`
 
 Or run:
 
-`$ php composer.phar require sjaakp/yii2-symbol-picker "*"` 
+`$ php composer.phar require geoffry304/yii2-symbol-picker "*"`
 
-You can manually install **SymbolPicker** by [downloading the source in ZIP-format](https://github.com/sjaakp/yii2-symbol-picker/archive/master.zip).
+You can manually install **SymbolPicker** by [downloading the source in ZIP-format](https://github.com/geoffry304/yii2-symbol-picker/archive/master.zip).
 
 ## Using SymbolPicker ##
 
 **SymbolPicker** is a Yii 2.0 [InputWidget](http://www.yiiframework.com/doc-2.0/yii-widgets-inputwidget.html). Like any other InputWidget it can be associated with a `model` and an `attribute` (or with a `name` and a `value`).
 
-**Symbolpicker** is in namespace `sjaakp\symbolpicker`.
+**Symbolpicker** is in namespace `geoffry304\symbolpicker`.
 
 For instance, to associate **SymbolPicker** with the attribute `'icon'` in a form view, use code like this:
 
-    use sjaakp\symbolpicker\SymbolPicker;
-        
+    use geoffry304\symbolpicker\SymbolPicker;
+
 	...
 	<?= $form->field($model, 'icon')->widget(SymbolPicker::className()) ?>
 	...

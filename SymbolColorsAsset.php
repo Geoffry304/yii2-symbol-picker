@@ -6,7 +6,7 @@
  * Time: 21:17
  */
 
-namespace sjaakp\symbolpicker;
+namespace geoffry304\symbolpicker;
 
 use yii\web\AssetBundle;
 
